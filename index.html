@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="styles/media-query.css">
     <!-- icones (pesquisar / seta para baixo) -->
 
-
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <!-- HEADER -->
@@ -25,7 +24,8 @@
             <a href="Top">Top Semanal</a>
         </div>
         <!-- Caixa de pesquisa -->
-        <div>
+        <div class="pesquisar">
+            <a href="#"><img src="images/icons/search_FILL0_wght400_GRAD0_opsz24.png" alt="procurar"></a>
             <input type="search" id="pesquisar" placeholder="Pesquisar...">
         <!-- Placeholder - para aparecer o nome dentro da caixa de pesquisa -->
         </div>
@@ -49,7 +49,7 @@
                 <a href="#">1ª Temporada</a>
                 <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, labore quas? Distinctio similique incidunt cum itaque maiores! Nam quia aperiam numquam fugit, rerum sint velit error eum porro eveniet? Pariatur.</a>
                     <div id="bannerbutton">
-                        <button type="button">Assistir</button>
+                        <a href="#"><button type="button">Assistir</button></a>
                         <button type="button">+ Adicionar a lista</button>
                     </div>
             </div>   
@@ -57,31 +57,73 @@
         <!-- fim banner -->
 
         <!-- inicio conteiner -->
-        <h2 id="gambiarra">Aleatorios</h2>
+            <h2 id="gambiarra">Aleatorios</h2>
         <div class="conteiner">
             <div id="box">
-                <img src="images/img1-L'Art.png" alt="L'Art">
-                <img src="images/img2-Trump.png" alt="Trump">
-                <img src="images/img3-UglyDelicious.png" alt="Ugly">
-                <img src="images/img4-Crown.png" alt="Crown">
+                <a href="#"><img src="images/img1-L'Art.png" alt="L'Art"></a>
+                <a href="#"></a><img src="images/img2-Trump.png" alt="Trump">
+                <a href="#"></a><img src="images/img3-UglyDelicious.png" alt="Ugly">
+                <a href="#"></a><img src="images/img4-Crown.png" alt="Crown">
             </div> 
         </div>
-        <h2 id="gambiarra2">Aleatorios</h2>
+            <li><h2 id="gambiarra2">Em Alta</h2>
         <div class="conteiner">
-                <div id="box">
-                <img src="images/img5-HouseofCards.png" alt="L'Art">
-                <img src="images/img6-Elchapo.png" alt="Trump">
-                <img src="images/img3-UglyDelicious.png" alt="Ugly">
-                <img src="images/img4-Crown.png" alt="Crown">
+            <div id="box">
+                <a href="#"><img src="images/img5-HouseofCards.png" alt="HouseofCards">
+                <a href="#"><img src="images/img6-Elchapo.png" alt="ElChapo">
+                <a href="#"><img src="images/img7-Narcos.png" alt="Narcos">
+                <a href="#"><img src="images/img8-Troie.png " alt="Troie">
             </div> 
         </div>
+        <h2 id="gambiarra2">Suspense</h2>
+        <div class="conteiner">
+            <div id="box">
+                <a href="#"><img src="images/img9-LaCasaDePapel.png" alt="LaCasaDePapel">
+                <a href="#"><img src="images/img10-Comedians.png" alt="Comedians">
+                <a href="#"><img src="images/img11-Inside.png" alt="Inside">
+                <a href="#"><img src="images/img12-Unsolved.png" alt="Unsolved">
+            </div> 
+        </div>
+        <h2 id="gambiarra2">Terror</h2>
+        <div class="conteiner">
+            <div id="box">
+                <a href="#"><img src="images/img13-13Reasons.png" alt="13Reasons">
+                <a href="#"><img src="images/img14-MarcoPolo.png" alt="MarcoPolo">
+                <a href="#"><img src="images/img15-BlackMirror.png" alt="BlackMirror">
+                <a href="#"><img src="images/img16-DirtyMoney.png" alt="DirtyMoney">
+            </div> 
+        </div>
+        <!-- banner final -->
+        <div class="bannerEnd">
+            <img src="images/la-casa-de-papel-terceira-teporada.png"  width="95%">
+        </div>
+        <!-- fim banner final -->
+
+        <!-- ultima div -->
+        <div class="colordiv">
+            <a href="#" class="box" id="box1">Mais vistos</a>
+            <a href="#" class="box" id="box2">Ultimas</a>
+            <a href="#" class="box" id="box3">Terror</a>
+            <a href="#" class="box" id="box4">Suspense</a>
+            <a href="#" class="box" id="box5">Lançamentos</a>
+            <a href="#" class="box" id="box6">2023</a>
+            <a href="#" class="box" id="box7">2024</a> 
+            <a href="#" class="box" id="box8">...</a>
+
+        </div>
+
+        <!-- fim ultima div -->
+
+
         <!-- fim conteiner -->
 
 
     </main>
     <!-- Fim MAIN -->
 
-    <footer></footer>
+    <footer>
+        <p>&copy; 1993 - 2024 NerdFlix. inc</p>
+    </footer>
 
 </body>
 </html>
